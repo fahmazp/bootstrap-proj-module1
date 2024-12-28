@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Raleway", serif ;
+    font-size: 14px; 
+}
+
+.carousel-item img {
+    height: 470px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    width: 55px;
+    height: 55px;
+}
